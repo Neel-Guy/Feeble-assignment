@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme inline{
+    --spacing-mdXl : 75rem; /* i.e. 1200px */
+    --radius-nav : 200px;
+    --text-md : 1.125rem;
+    --color-links : #8C97A8;
+    --color-btn : #007AFF;
+    --color-btn-hover : #0078FF;
+    --color-btn-disabled : #8C97A8;
+    }
