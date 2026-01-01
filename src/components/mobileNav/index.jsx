@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { NAV_LINKS } from "@/constants/navitems";
 import { NavLink } from "../navLink";
-import { ContactSalesButton } from "@/App";
+import { PrimaryBtn } from "@/App";
 
 
 export function NavigationMenuDemo() {
@@ -27,7 +27,7 @@ export function NavigationMenuDemo() {
                 );
               })}
               <div className="min-w-50">
-                <ContactSalesButton />
+                <PrimaryBtn />
               </div>
             </div>
           </NavigationMenuContent>

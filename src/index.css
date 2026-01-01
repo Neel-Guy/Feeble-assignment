@@ -4,9 +4,12 @@
     --spacing-mdXl : 75rem; /* i.e. 1200px */
     --radius-nav : 200px;
     --text-md : 1.125rem;
+    --text-6-7xl: 4rem;
     --breakpoint-mdm : 816px;
     --color-links : #8C97A8;
     --color-btn : #007AFF;
+    --color-foundation-blue: #006FE8;
+    --color-foundation-blue-500 :#007AFF;
     --color-btn-hover : #0078FF;
     --color-btn-disabled : #8C97A8;
     }
