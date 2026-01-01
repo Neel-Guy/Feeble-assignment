@@ -8,10 +8,9 @@ import {
 } from "@/components/ui/navigation-menu";
 import { NAV_LINKS } from "@/constants/navitems";
 import { NavLink } from "../navLink";
-import { PrimaryBtn } from "@/App";
+import { PrimaryBtn } from "../buttons/primary";
 
-
-export function NavigationMenuDemo() {
+export function MobileNav() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
