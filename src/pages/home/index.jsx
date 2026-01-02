@@ -34,12 +34,8 @@ function HomePage() {
       <div className="absolute bottom-6 flex flex-col text-[#1D2026] items-center z-30 arrow w-fit h-fit cursor-pointer">
         <p>Scroll to learn more</p>
         <div>
-        <img
-          src={ArrowDown}
-          className="w-8 h-8"
-          alt="down arrow"
-          />
-          </div>
+          <img src={ArrowDown} className="w-8 h-8" alt="down arrow" />
+        </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full max-h-145 pointer-events-none">
         <img
