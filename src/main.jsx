@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import "@/assets/fonts/General Sans/css/general-sans.css"
 import './index.css'
 import App from './App.jsx'
 

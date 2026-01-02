@@ -1,6 +1,6 @@
 import React from "react";
-import Birds from "@/assets/birds.png";
-import AppleIcon from "@/assets/apple_logo.svg";
+import Birds from "@/assets/images/birds.png";
+import AppleIcon from "@/assets/images/apple_logo.svg";
 import { Ellipsis } from "lucide-react";
 import { OutlinedBtn } from "@/components/buttons/outline";
 import { PrimaryBtn } from "@/components/buttons/primary";
@@ -11,7 +11,7 @@ function HeroSection() {
       id="hero"
       className="w-full max-w-184 flex flex-col gap-6 items-center justify-center text-center tracking-[-2%] p-2 wrap-break-word relative my-12"
     >
-      <div className="w-mdXl max-h-47 h-full max-[1200px]:w-screen overflow-hidden px-12 max-sm:hidden origin-center absolute top-1/3 transform">
+      <div className="w-mdXl max-h-47 h-full max-[1200px]:w-screen overflow-hidden px-12 max-sm:hidden origin-center absolute top-1/3 transform bird-group">
         <img
           src={Birds}
           alt="birds bg"
@@ -32,13 +32,13 @@ function HeroSection() {
         <br />
         Workflows.
       </p>
-      <p className="leading-[130%] font-normal text-md max-w-146.5">
+      <p className="leading-[130%] font-normal text-md max-sm:text-sm max-w-146.5">
         Coup lets you, your team, or AI workflows send iMessages directly from
         your phone number, running securely on your Mac or Mac Mini.
       </p>
       <div
         id="btn-group"
-        className="w-md flex max-mdm:w-full flex-wrap justify-center items-center gap-4"
+        className="w-xl flex max-mdm:w-full flex-wrap justify-center items-center gap-4"
       >
         <div className="w-40">
           <PrimaryBtn label="Get Started" />
